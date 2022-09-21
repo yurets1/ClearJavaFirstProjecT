@@ -13,7 +13,7 @@ public class Cat extends Animal{
         this.name = name;
         this.run = run;
         this.swim = swim;
-
+        count++;
     }
 
     static int count;
@@ -51,6 +51,10 @@ public class Cat extends Animal{
 
     public Cat(String name) {
         this.name = name;
+        count++;
+    }
+
+    public Cat() {
         count++;
     }
 

@@ -12,6 +12,7 @@ public class Dog extends Animal{
         this.name = name;
         this.run = run;
         this.swim = swim;
+        count++;
     }
 
 
@@ -49,6 +50,10 @@ public class Dog extends Animal{
         } else {
             System.out.println(name + " swim " + swim + " m") ;
         }
+    }
+
+    public Dog() {
+        count++;
     }
 
     @Override

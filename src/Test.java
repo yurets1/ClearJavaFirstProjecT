@@ -24,11 +24,11 @@ public class Test {
             } else {
                 ((Cat)a).run();
                 ((Cat)a).swim();
-                System.out.println("error");
             };
-
         }
-
+        System.out.println(Dog.getCount());
+        System.out.println(Cat.getCount());
+        System.out.println(Animal.getCount());
 
     }
 
